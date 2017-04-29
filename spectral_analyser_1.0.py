@@ -9,13 +9,13 @@ import matplotlib.pyplot as plt
 f_start = input("Vloz startovni frekvenci [ MHz ] :")
 print ("Fstart =", f_start)
 f_stop = input("Vloz koncovou frekvenci [ MHz ] :")
-print "Fstop =", f_stop
+print ("Fstop =", f_stop)
 sirka_volba = raw_input("Vloz volbu pro rozliseni, RBW ( a = 244 Hz // b = 61 Hz // c = 15 Hz // d = 1 Hz):")
-print "volba =", sirka_volba
+print ("volba =", sirka_volba)
 log_volba = raw_input("Logaritmicka stupnice :  a = ano // n = ne   :")
-print "volba =", log_volba
+print ("volba =", log_volba)
 pozadi_volba = raw_input("Odecist sumove pozadi :  a = ano // n = ne   :")
-print "volba =", pozadi_volba
+print ("volba =", pozadi_volba)
 
 
 if	sirka_volba is	'a' :
