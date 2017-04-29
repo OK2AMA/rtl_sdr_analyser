@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 #  zadejte prvni a posledni frekvenci pro definovani okna ktere ma byt zmereno, v MHz
 f_start = input("Vloz startovni frekvenci [ MHz ] :")
-print "Fstart =", f_start
+print ("Fstart =", f_start)
 f_stop = input("Vloz koncovou frekvenci [ MHz ] :")
 print "Fstop =", f_stop
 sirka_volba = raw_input("Vloz volbu pro rozliseni, RBW ( a = 244 Hz // b = 61 Hz // c = 15 Hz // d = 1 Hz):")
