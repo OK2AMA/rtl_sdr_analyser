@@ -1,5 +1,10 @@
 from pylab import *
 from rtlsdr import *
+from numpy import *
+
+def autocorr(x):
+    result = numpy.correlate(x, x, mode='full')
+    return result[result.size/2:]
 
 sdr = RtlSdr()
 
